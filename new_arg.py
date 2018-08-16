@@ -2,6 +2,10 @@
 
 # writing a python file to interpret arguments i.e from the command line
 
+# The strange name argv stands for “argument values”
+# whenever Python runs a program, it takes all of the values
+# given on the command line and puts them in the list sys.argv
+# so that the program can determine what they were
 import sys
 
 print("This is the name of the script: ", sys.argv[0])
