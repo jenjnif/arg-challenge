@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser()
 # To specify which command-line options the program
 # will accept, use the "add_argument()" method.
 # In this case I am calling the argument 'echo'
-# and echo is a postiional argument:
+# and echo is a positional argument:
 #     parser.add_argument("echo")
 # to get more help about the positional argument (echo)
 # I need to change the script slightly
